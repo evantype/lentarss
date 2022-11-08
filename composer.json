@@ -1,0 +1,17 @@
+{
+    "name": "evantype/lentarss",
+    "authors": [
+        {
+            "name": "evantype",
+            "email": "evantype@gmail.com"
+        }
+    ],
+    "extra": {
+        "installer-paths": {
+            "local/modules/{$name}/": ["type:bitrix-module"]
+        }
+    },
+    "require": {
+        "andreyryabin/sprint.migration": "dev-master"
+    }
+}
